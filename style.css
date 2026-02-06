@@ -363,6 +363,80 @@ h3 {
   color: #cbd5f5;
 }
 
+/* Final Call To Action */
+.final-cta {
+    width: 100%;
+    padding: 140px 20px;
+    background: radial-gradient(
+        circle at 50% -20%,
+        rgba(13, 186, 136, 0.18),
+        transparent 60%
+    );
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.final-cta-inner {
+    max-width: 900px;
+}
+
+.final-cta-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.final-cta-desc {
+    font-size: 18px;
+    color: #94a3b8;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.final-cta-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.final-btn {
+    padding: 14px 28px;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+.final-btn.primary {
+    background: #ffffff;
+    color: #020617;
+}
+
+.final-btn.primary:hover {
+    background: #e5e7eb;
+}
+
+.final-btn.secondary {
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #ffffff;
+}
+
+.final-btn.secondary:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .final-cta-title {
+        font-size: 40px;
+    }
+}
+
+
 
 .window-body {
     display: flex; 
